@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mr Burger - Hubt</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="images/mrburger.png">
+
+    <style>
+      html {
+        font-size: 12px;
+      }
+      body {
+        margin: 0;
+        background: #f2f2f2;
+        user-select: none;
+      }
+      img {
+        pointer-events: none;
+      }
+      .layout {
+        margin: 0 auto;
+        width: 1266px;
+      }
+      .main-img {
+        padding-left: 229px;
+        display: block;
+        width: 1037px;
+      }
+      .sidebar-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+      .sidebar {
+        width: 1266px;
+        margin: 0 auto;
+      }
+      .sidebar img {
+        width: 229px;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        background-color: white;
+        box-shadow: 0 0 8px 0px rgba(0,0,0,0.2);
+        z-index: 100;
+      }
+      .top-navbar {
+        position: absolute;
+        height: 3rem;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #4B4B4B;
+        background-color: #0084d6;
+      }
+      .navbar img {
+          height: 92px;
+          z-index: 1;
+      }
+      @media (max-width: 1300px) {
+        .layout {
+          width: 1139px;
+        }
+        .main-img {
+          padding-left: 200px;
+          width: 933px;
+          z-index: 10;
+          position: relative;
+        }
+        .sidebar {
+          width: 1130px;
+        }
+        .sidebar img {
+          width: 206px;
+        }
+      }
+    </style>
+
+    <!-- Hotjar Tracking Code for https://www.hubt.com.br/ -->
+  	<script>
+  		(function(h,o,t,j,a,r){
+  			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+  			h._hjSettings={hjid:772699,hjsv:6};
+  			a=o.getElementsByTagName('head')[0];
+  			r=o.createElement('script');r.async=1;
+  			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+  			a.appendChild(r);
+  		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  	</script>
+
+</head>
+
+<body>
+
+<div class="navbar">
+  <div class="top-navbar"></div>
+  <img src="./images/navbar-left2b.png"/>
+  <img src="./images/navbar-center2b.png"/>
+  <img src="./images/navbar-right2b.png"/>
+</div>
+<div class="sidebar-container">
+  <div class="sidebar">
+    <img src="images/sidebar.jpg"/>
+  </div>
+</div>
+<div class="layout">
+  <img class="main-img" src="images/layout1b.jpg"/>
+  <img class="main-img" src="images/layout2b.jpg"/>
+</div>
+</body>
+
+</html>
